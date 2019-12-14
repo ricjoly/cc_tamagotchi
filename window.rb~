@@ -1,0 +1,9 @@
+require "ruby2d"
+img = Image.new(		
+			 "./Kidoo.png", 
+				  x:0,y:0
+
+)
+img.width = 1280		# Largeur de l'image
+img.height = 720		  # Hauteur de l'image
+img.color = "red"
